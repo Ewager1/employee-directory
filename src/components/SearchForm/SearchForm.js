@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import ResetFormBtn from "../ResetFormBtn";
+
+//Note: Altered from React Activity 1
 
 class SearchForm extends Component {
   constructor(props) {
@@ -20,7 +23,6 @@ class SearchForm extends Component {
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
       <div>
-        {/* <form className="form"> */}
         <input
           value={this.state.lastName}
           name="lastName"
@@ -29,11 +31,12 @@ class SearchForm extends Component {
           placeholder="Search By Last Name"
         />
         <button
+          className="ml-1 mb-3"
           onClick={() => this.props.handleFormSubmit(this.state.lastName)}
         >
           Submit
         </button>
-        {/* </form> */}
+        <ResetFormBtn handleResetBtn={this.props.handleResetBtn} />
       </div>
     );
   }
