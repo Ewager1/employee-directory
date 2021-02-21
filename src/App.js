@@ -1,8 +1,7 @@
 import "./styles.css";
-import Header from "./components/Header/Header";
-import EmployeeTable from "./components/EmployeeTable/EmployeeTable";
-import Footer from "./components/Footer/Footer";
-import ContentContainer from "./components/ContentContainer/ContentContainer";
+import Header from "./components/Header";
+import ContentContainer from "./components/ContentContainer";
+import "react-table/react-table.css";
 
 export default function App() {
   return (
