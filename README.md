@@ -7,7 +7,7 @@ https://codesandbox.io/s/employee-directory-u0rol
 ## Description
 An employee directory where the user can view all employees in a database, organize employees by any feild, and search for an employee via last name. 
 
-![Employee Directory Picture]("./src/demoPics/employeeDirectoryDemo.jpg")
+![Employee Directory Picture]("/src/demoPics/employeeDirectoryDemo.jpg")
 
 ## How to use 
 Fork this repo. If
