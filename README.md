@@ -9,8 +9,6 @@ An employee directory where the user can view all employees in a database, organ
 
 ![Employee Directory Picture]("/src/demoPics/employeeDirectoryDemo.jpg")
 
-## How to use 
-Fork this repo. If
 
 ## Technologies Used 
 - React 
